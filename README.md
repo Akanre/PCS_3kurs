@@ -27,6 +27,8 @@ Present:
 
 <img width="474" height="860" alt="image" src="https://github.com/user-attachments/assets/68296c2b-286f-4104-8f76-c2f796a5cea3" />
 
+Интерфейс получился простым и удобным. Можно улучшить его, добавив новый функционал или новый экран, а также сделать более продвинутый дизайн.
+
 Ссылка на проект в Figma:
 https://www.figma.com/design/3TaacuVBs4loHwQ4l6yu9k/Prototype_App_Kaltahchyan?node-id=0-1&t=dhEsGxeRnS3KWqgd-1
 
