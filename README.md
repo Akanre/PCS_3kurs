@@ -1,16 +1,53 @@
-# flutter_create_state_practice_kaltahchyan
+Программирование корпоративных систем
+Калтахчян Арен ЭФБО-06-23
+Отчет по практической работе №4
 
-A new Flutter project.
+Скриншот приложения:
 
-## Getting Started
+<img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/d58cacc0-3fe0-4ba7-8621-1bf59e01bfc8" />
 
-This project is a starting point for a Flutter application.
+Скриншот после нажатия кнопки "Увеличить":
 
-A few resources to get you started if this is your first Flutter project:
+<img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/4379e69d-3bd6-45aa-81e7-44e64a3f150d" />
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Скриншот после долгого нажатия на кнопку "Увеличить":
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/e3a3b8f3-9918-4ebc-be0a-f4ba107b6925" />
+
+Скриншот после нажатия кнопки "Сбросить":
+
+<img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/ee7f0375-dbe9-4fd9-97c1-d60c8904a299" />
+
+
+Использованные виджеты:
+
+MaterialApp - основа приложения
+
+Scaffold - каркас экрана с AppBar
+
+AppBar - верхняя панель с заголовком
+
+Center - центрирование содержимого
+
+Column - вертикальное расположение элементов
+
+Text - отображение текста
+
+SizedBox - создание отступов
+
+Container - контейнер для стилизации кнопок
+
+GestureDetector - обработка нажатий на кнопки
+
+Обновление состояния:
+Использовался StatefulWidget с переменной counter. При каждом изменении счетчика вызывается setState(), который перерисовывает интерфейс с новым значением.
+
+Обрабатываемые события:
+
+Обычное нажатие на кнопку "Увеличить" - +1 к счетчику
+
+Долгое нажатие на кнопку "Увеличить" - +10 к счетчику
+
+Нажатие на кнопку "Сбросить" - обнуление счетчика
+
+
