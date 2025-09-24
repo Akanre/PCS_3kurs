@@ -22,7 +22,7 @@
 
 Скриншот после нажатия кнопки "Сбросить":
 
-<img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/ee7f0375-dbe9-4fd9-97c1-d60c8904a299" />
+<img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/ee7f0375-dbe9-4fd9-97c1-d60c8904a299" /><br>
 <br>
 Использованные виджеты:
 
@@ -42,10 +42,10 @@ SizedBox - создание отступов
 
 Container - контейнер для стилизации кнопок
 
-GestureDetector - обработка нажатий на кнопки
+GestureDetector - обработка нажатий на кнопки<br>
 <br>
 Обновление состояния:
-Использовался StatefulWidget с переменной counter. При каждом изменении счетчика вызывается setState(), который перерисовывает интерфейс с новым значением.
+Использовался StatefulWidget с переменной counter. При каждом изменении счетчика вызывается setState(), который перерисовывает интерфейс с новым значением.<br>
 <br>
 Обрабатываемые события:
 
