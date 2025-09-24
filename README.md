@@ -1,22 +1,29 @@
 Программирование корпоративных систем
+
 Калтахчян Арен ЭФБО-06-23
+
 Отчет по практической работе №4
+
 
 Скриншот приложения:
 
 <img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/d58cacc0-3fe0-4ba7-8621-1bf59e01bfc8" />
 
+
 Скриншот после нажатия кнопки "Увеличить":
 
 <img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/4379e69d-3bd6-45aa-81e7-44e64a3f150d" />
+
 
 Скриншот после долгого нажатия на кнопку "Увеличить":
 
 <img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/e3a3b8f3-9918-4ebc-be0a-f4ba107b6925" />
 
+
 Скриншот после нажатия кнопки "Сбросить":
 
 <img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/ee7f0375-dbe9-4fd9-97c1-d60c8904a299" />
+
 
 
 Использованные виджеты:
@@ -39,8 +46,10 @@ Container - контейнер для стилизации кнопок
 
 GestureDetector - обработка нажатий на кнопки
 
+
 Обновление состояния:
 Использовался StatefulWidget с переменной counter. При каждом изменении счетчика вызывается setState(), который перерисовывает интерфейс с новым значением.
+
 
 Обрабатываемые события:
 
