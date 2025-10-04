@@ -23,8 +23,7 @@
 
 
 Видео работы приложения:
-<video src="demo_5prac.mp4" controls width="800"></video>
-
+![Демонстрация приложения](demo_5prac.mp4)
 
 
 
