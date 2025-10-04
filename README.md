@@ -26,5 +26,5 @@
 
 
 Видео работы приложения:
-<video src="https://github.com/Akanre/PCS_3kurs/raw/5prac/demo_5prac.mp4" controls width="800" height="450"></video>
+https://github.com/user-attachments/assets/8bc843db-571e-4673-b78a-a461a4218dce
 
