@@ -26,5 +26,4 @@
 
 
 Видео работы приложения:
-https://github.com/user-attachments/assets/8bc843db-571e-4673-b78a-a461a4218dce
-
+![Image](https://github.com/user-attachments/assets/a738e837-75cd-412a-8f7e-30610e3725cc)
