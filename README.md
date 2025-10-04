@@ -1,6 +1,9 @@
 Программирование корпоративных систем
+
 Практическая работа №5
+
 Калтахчян Арен Артурович
+
 ЭФБО-06-23
 
 Цели:
@@ -23,5 +26,5 @@
 
 
 Видео работы приложения:
-<video src="./demo_5prac.mp4" controls width="800"></video>
+<video src="https://github.com/Akanre/PCS_3kurs/raw/5prac/demo_5prac.mp4" controls width="800"></video>
 
