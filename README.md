@@ -1,16 +1,29 @@
-# simple_notes
+Программирование корпоративных систем
+Практическая работа №5
+Калтахчян Арен Артурович
+ЭФБО-06-23
 
-A new Flutter project.
+Цели:
+1)	Научиться отображать коллекции данных с помощью ListView.builder.
+2)	Освоить базовую навигацию Navigator.push / Navigator.pop и передачу данных через конструктор.
+3)	Научиться добавлять, редактировать и удалять элементы списка без внешних пакетов и сложных архитектур.
 
-## Getting Started
+Шаги выполнения:
+1) Реализовано удаление заметок через свайп и кнопку
+<img width="687" height="454" alt="image" src="https://github.com/user-attachments/assets/069519e0-acda-426a-adec-621729de62c6" />
 
-This project is a starting point for a Flutter application.
+<img width="516" height="112" alt="image" src="https://github.com/user-attachments/assets/15cd659b-4ae1-49ea-ae00-507a6720337f" />
 
-A few resources to get you started if this is your first Flutter project:
+2) Добавлен поиск с фильтрацией по заголовку
+<img width="887" height="347" alt="image" src="https://github.com/user-attachments/assets/fde6d3b8-a500-4265-979f-ecf8dec9b700" />
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<img width="800" height="349" alt="image" src="https://github.com/user-attachments/assets/226a5317-93d3-4495-9663-94a6c4cc1bb3" />
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+3) Слегка изменен дизайн
+
+
+Видео работы приложения:
+
+
+
+
