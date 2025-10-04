@@ -23,7 +23,5 @@
 
 
 Видео работы приложения:
-<video controls width="800">
-  <source src="demo_5prac.mp4" type="video/mp4">
-</video>
+<video src="./demo_5prac.mp4" controls width="800"></video>
 
