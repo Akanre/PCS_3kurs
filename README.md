@@ -4,6 +4,7 @@
 
 Калтахчян Арен ЭФБО-06-23
 
+
 1. Создание и привязка Firebase-проекта
 Способ создания: Firebase CLI (flutterfire configure)
 
@@ -17,40 +18,68 @@
 
 Настроены приложения для Android/Web
 
+
 2. Используемые пакеты и инициализация
 Пакеты в pubspec.yaml:
+
 dependencies:
+
   flutter:
+
     sdk: flutter
+  
   firebase_core: ^3.6.0
+  
   cloud_firestore: ^5.4.4
+  
   cupertino_icons: ^1.0.8
 
   Инициализация в main.dart:
+  
   void main() async {
+  
   WidgetsFlutterBinding.ensureInitialized();
+  
   await Firebase.initializeApp(
+  
     options: DefaultFirebaseOptions.currentPlatform,
+  
   );
+  
   runApp(const NotesApp());
+
 }
 
 3. Структура данных в Firestore
+
 notes/
+
   └── {noteId}
+  
        ├── title: string
+       
        ├── content: string
+       
        ├── createdAt: timestamp
+       
        └── updatedAt: timestamp
 
 4. Правила безопасности Firestore
+
 rules_version = '2';
+
 service cloud.firestore {
+
   match /databases/{database}/documents {
+  
     match /{document=**} {
+    
       allow read, write: if true;
+    
     }
+  
   }
+
 }
 
 Почему недостаточно для продакшена:
