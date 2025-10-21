@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "596402750525",
+    "project_id": "prac-8-pcs",
+    "storage_bucket": "prac-8-pcs.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596402750525:android:7f3b4f170c97d99cacd654",
+        "android_client_info": {
+          "package_name": "com.example.firebase_notes_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7OW05JMRam65OmSe3tx0elMJON_qPx8c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
