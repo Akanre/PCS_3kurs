@@ -22,65 +22,21 @@
 2. Используемые пакеты и инициализация
 Пакеты в pubspec.yaml:
 
-dependencies:
+<img width="489" height="150" alt="image" src="https://github.com/user-attachments/assets/602d25cf-7271-4168-8dd0-c4bef7465cf0" />
 
-  flutter:
-
-    sdk: flutter
-  
-  firebase_core: ^3.6.0
-  
-  cloud_firestore: ^5.4.4
-  
-  cupertino_icons: ^1.0.8
 
   Инициализация в main.dart:
   
-  void main() async {
-  
-  WidgetsFlutterBinding.ensureInitialized();
-  
-  await Firebase.initializeApp(
-  
-    options: DefaultFirebaseOptions.currentPlatform,
-  
-  );
-  
-  runApp(const NotesApp());
-
-}
+  <img width="931" height="151" alt="image" src="https://github.com/user-attachments/assets/616e5168-695c-448c-818d-901a7f4fd0b9" />
 
 3. Структура данных в Firestore
 
-notes/
-
-  └── {noteId}
-  
-       ├── title: string
-       
-       ├── content: string
-       
-       ├── createdAt: timestamp
-       
-       └── updatedAt: timestamp
+<img width="1362" height="507" alt="image" src="https://github.com/user-attachments/assets/549cde05-ecf7-497c-a688-dcdaf0a49aad" />
 
 4. Правила безопасности Firestore
 
-rules_version = '2';
+<img width="923" height="260" alt="image" src="https://github.com/user-attachments/assets/40e2315b-9e6f-4716-bbdc-885487e8ab02" />
 
-service cloud.firestore {
-
-  match /databases/{database}/documents {
-  
-    match /{document=**} {
-    
-      allow read, write: if true;
-    
-    }
-  
-  }
-
-}
 
 Почему недостаточно для продакшена:
 
