@@ -26,6 +26,7 @@ Policies и RLS:
 
 <img width="1919" height="366" alt="image" src="https://github.com/user-attachments/assets/9b4a8d3e-4ec0-49ea-8aa3-1f6b1cca74db" />
 
+
 Шаги подключения:
 
 Создал проект на supabase.com
@@ -41,13 +42,16 @@ const supabaseUrl = 'https://qfwnodkkolwncpbttcgu.supabase.co';
 const supabaseAnonKey =
     'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFmd25vZGtrb2x3bmNwYnR0Y2d1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjE2Mzg5ODYsImV4cCI6MjA3NzIxNDk4Nn0.xg7QFioYewu6-kAmJCDYT6hR63FFXkEGGv4YbgSmBfE';
 
+
 В pubspec.yaml добавил:
 
 supabase_flutter: ^2.0.0
 
+
 Инициализация в main.dart:
 
 await Supabase.initialize(url: supabaseUrl, anonKey: supabaseAnonKey);
+
 
 Таблица notes:
 
@@ -57,6 +61,7 @@ title, content - текст заметки
 
 created_at, updated_at - даты
 
+
 Политики RLS:
 
 Чтение только своих записей
@@ -65,19 +70,26 @@ created_at, updated_at - даты
 
 Изменение/удаление только своих заметок
 
+
 Что нужно улучшить для продакшена:
 
+
 1. Доступ только для вошедших пользователей
+
 Сейчас: могут работать все
 
 Нужно: разрешить только тем, кто вошел в систему
 
+
 2. Строгая проверка данных
+
 Сейчас: принимаем любой текст
 
 Нужно: проверять длину, запрещать вредоносный код
 
+
 3. Защита ключей
+
 Сейчас: ключи в коде
 
 Нужно: хранить в защищенных переменных окружения
