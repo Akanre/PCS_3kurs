@@ -184,6 +184,10 @@ AppBar: Заголовок "Профиль"
 
 <img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/8b644ab4-8dcc-40f4-b7ee-b0ebf30086ce" />
 
+Скриншот поиска:
+
+<img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/3559eddc-4158-4275-a112-1d1088b05c4b" />
+
 
 Зависимости:
 
