@@ -197,6 +197,14 @@ image – декодирование, обработка и манипуляци
 
 path_provider – получение путей к системным директориям (кеш, документы) для сохранения файлов
 
+**Policies:**
+
+<img width="1319" height="406" alt="image" src="https://github.com/user-attachments/assets/4c92034c-2be3-489a-8e00-79e51c21538f" />
+
+<img width="1326" height="585" alt="image" src="https://github.com/user-attachments/assets/47de2232-7a80-4c53-a387-072b92668700" />
+
+
+
 
 
 
