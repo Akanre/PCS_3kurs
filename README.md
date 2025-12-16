@@ -179,6 +179,20 @@ AppBar: Заголовок "Профиль"
 <img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/6a021e59-e2f4-4b1e-95c2-d2dfe848ad83" />
 
 
+Зависимости:
+
+<img width="380" height="213" alt="image" src="https://github.com/user-attachments/assets/ab33ffed-b040-4895-94d4-4917d8277662" />
+
+supabase_flutter – клиент для работы с Supabase (БД, аутентификация, хранилище)
+
+image_picker – выбор изображений из галереи или камеры
+
+image – декодирование, обработка и манипуляции с изображениями
+
+path_provider – получение путей к системным директориям (кеш, документы) для сохранения файлов
+
+
+
 
 
 
