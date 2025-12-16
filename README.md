@@ -74,6 +74,8 @@ AppBar:
 
 Тело страницы:
 
+Поиск по названию моделей
+
 BottomNavigationBar с 3 иконками:
 
       • Главная (активная)
@@ -82,7 +84,6 @@ BottomNavigationBar с 3 иконками:
 
       • Личный кабинет
 
-      • Поиск по названию моделей
 
 GridView (2 колонки) с карточками машинок
 
@@ -162,13 +163,16 @@ AppBar: Заголовок "Профиль"
 
 <img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/ef72fb41-23bd-4073-b3a9-37d91d686994" />
 
+
 Скриншот главного экрана:
 
 <img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/64b80e87-6b22-47f2-8eb2-d07741eef004" />
 
+
 Скриншот избранных моделей:
 
 <img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/4703540c-8634-4f63-a311-388d5cbbc9f7" />
+
 
 Скриншот профиля:
 
