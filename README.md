@@ -184,8 +184,13 @@ AppBar: Заголовок "Профиль"
 
 <img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/8b644ab4-8dcc-40f4-b7ee-b0ebf30086ce" />
 
+Скриншот поиска:
 
-Зависимости:
+<img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/3559eddc-4158-4275-a112-1d1088b05c4b" />
+
+
+
+**Зависимости:**
 
 <img width="380" height="213" alt="image" src="https://github.com/user-attachments/assets/ab33ffed-b040-4895-94d4-4917d8277662" />
 
@@ -196,6 +201,7 @@ image_picker – выбор изображений из галереи или к
 image – декодирование, обработка и манипуляции с изображениями
 
 path_provider – получение путей к системным директориям (кеш, документы) для сохранения файлов
+
 
 **Policies:**
 
